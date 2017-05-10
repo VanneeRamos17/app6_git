@@ -1,0 +1,410 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta Aplicacion</title>
+
+<!--grupo CSS-->
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+<link rel="stylesheet" href="css/tema1.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+
+ <body onLoad="MM_preloadImages('imagenes/termica.jpg','imagenes/MUNDO_SUCIO.jpg','imagenes/blogger-image-766107184.jpg','imagenes/Foto0249.jpg','imagenes/4mayo2.jpg','imagenes/5mayo2.jpg','imagenes/causas2.png')">
+ 
+    <div data-role="page" id="Principal" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-black-btn-txt="Regresar" data-back-btn-theme="b">
+     <h1>Batalla de Puebla </h1>
+    </div>
+       
+
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/ima1.jpg" alt="ima1" title="ima1" id="wows1_0"/></li>
+		<li><img src="data1/images/ima2.jpg" alt="ima2" title="ima2" id="wows1_1"/></li>
+		<li><img src="data1/images/ima3.jpg" alt="ima3" title="ima3" id="wows1_2"/></li>
+		<li><img src="data1/images/ima4.jpg" alt="ima4" title="ima4" id="wows1_3"/></li>
+		<li><img src="data1/images/ima5.jpg" alt="ima5" title="ima5" id="wows1_4"/></li>
+		<li><img src="data1/images/ima6.jpg" alt="ima6" title="ima6" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/ima7.jpg" alt="slider" title="ima7" id="wows1_6"/></a></li>
+		<li><img src="data1/images/ima8.jpg" alt="ima8" title="ima8" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="ima1"><span><img src="data1/tooltips/ima1.jpg" alt="ima1"/>1</span></a>
+		<a href="#" title="ima2"><span><img src="data1/tooltips/ima2.jpg" alt="ima2"/>2</span></a>
+		<a href="#" title="ima3"><span><img src="data1/tooltips/ima3.jpg" alt="ima3"/>3</span></a>
+		<a href="#" title="ima4"><span><img src="data1/tooltips/ima4.jpg" alt="ima4"/>4</span></a>
+		<a href="#" title="ima5"><span><img src="data1/tooltips/ima5.jpg" alt="ima5"/>5</span></a>
+		<a href="#" title="ima6"><span><img src="data1/tooltips/ima6.jpg" alt="ima6"/>6</span></a>
+		<a href="#" title="ima7"><span><img src="data1/tooltips/ima7.jpg" alt="ima7"/>7</span></a>
+		<a href="#" title="ima8"><span><img src="data1/tooltips/ima8.jpg" alt="ima8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Batalla del 5 de Mayo</h1>
+       <div>
+        <p>Imagen de la batalla de Puebla:</p>
+        <br>
+       </div>
+     <center> <img src="imagenes/puebla.jpg" width="70%" height="250"></center>
+     </div>
+    </div>
+    <div>
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Museos en México</h1>
+       <div>
+       <p>Museo Amparo:</p>
+       <center><img src="imagenes/MuseoAmparo.jpg" width="50%" height="50%"></center>
+    <p>Museo Internacional del Barroco:</p>
+    <center> <img src="imagenes/MuseoInternacionalBarroco.jpg" width="50%" height="50%"></center>
+     <p>Museo Nacional del Ferrocarril:</p>
+      <center> <img src="imagenes/MuseoNacionalFerrocarril.jpg" width="50%" height="50%">  </center> 
+          
+     <p>Museo Jose Luis Bello y Zetina:</p>
+        <center> <img src="imagenes/JoseLuisBelloZetina.jpg" width="50%" height="50%"> </center>
+       </div>
+     </div>
+    </div>
+        
+        
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> 4 de mayo</h2>
+        <p>Se muestra una breve descripción de la batalla 4 de mayo</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Batalla 5 de mayo </h2>
+         <p>Se muestra la Historia de la batalla 5 de mayo </p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Inicio del conflicto</h2>
+         <p> se explica el inicio del conflicto</p>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Monumentos de la batalla</h2>
+         <p>Muestra los monumentos de la batalla</p>
+       </a>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Héroes de la batalla</h2>
+         <p>se muestras los Héroes de la batalla</p>
+       </a>
+     </li>
+     </li>
+     </ul>
+    </div>
+              
+ <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <p>Más infromacion sobre la batalla de Puebla:</p>
+  <li class="ui-first-child ui-last-child">
+    <a href="http://www.diariocultura.mx/2017/01/datos-que-no-sabias-sobre-la-batalla-de-puebla/" target="_self" data-role="button" id="vibrar">
+    <h2>Batalla </h2>
+    </a>
+    </li>
+    </ul>
+    </div>
+    </div>
+    
+ 
+   
+
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <div>
+        <img src="res/android/mdpi.jpg" width="46" height="46">
+      </div>
+      <div>
+       <h4>Aplicacion Seis</h4>
+       <h4>Vanessa Ramos Calvario</h4>
+      </div>
+     </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>  4 de mayo </h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2>Atlixco tiene una larga historia de contribuciones a la construcción de éste país  y este Estado de Puebla.
+
+Desde la etapa de colonización hispana, fue un lugar privilegiado y codiciado.  Sus condiciones de fertilidad, abundancia de agua y mano de obra, propiciaron una gran riqueza agrícola basada en el cultivo del trigo, por lo que fue considerada como “el primer granero de la Nueva España”.  Su importancia económica ha sido plasmada en diversos testimonios de aquella época recogidos en el libro “Antigua Villa de Carrión”, de la autoría de Marco Díaz.
+
+Su participación en la causa de la Independencia, -donde destacan José Luis Rodríguez de Alconedo y Francisco Pablo Vázquez-  le otorgaron, de parte del General Nicolás Bravo en 1843 la denominación de “Noble y Leal Ciudad de Atlixco”.
+
+El esfuerzo de construcción de nuestro país, pasa por una serie de invasiones. Por ello habrá que recordar también, la defensa que hizo Atlixco en contra de los españoles que intentaban reconquistar a México en 1825; y la intervención que tuvo en 1914 durante la invasión estadounidense en el gobierno de Victoriano Huerta.
+
+La llegada de la industria textil en Atlixco implicó para la región un cambio favorecedor en el estilo de vida; sin embargo, ésta época de desarrollo textil en el valle de Atlixco coincide con el movimiento revolucionario. La influencia del movimiento de Emiliano Zapata en pro de de la tierra, sumó a un gran número de trabajadores inconformes y  líderes de esta lucha revolucionaria de la región como Fortino Ayaquica y Domingo y Cirilo Arenas, que trataron de hacer insurrección en las fábricas textiles, hechos violentos que sucedieron entre 1911 y 1917 en la fábrica textil de Metepec. Incluso, el historiador Jeffrey Bortz, sostiene que los trabajadores de la industria textil del corredor fabril México, Tlaxcala y Atlixco, Puebla, aportaron las principales reivindicaciones laborales que quedaron plasmadas en la Constitución de 1917.
+
+Una distinción que enorgullece a los atliscenses  fue la Declaratoria mediante la cual Atlixco fue nombrada por Decreto del Congreso del Estado en el año de 1998 “Heroica Ciudad de Atlixco” por la defensa que dieron en contra del ejército norteamericano en 1848, y el reconocimiento al batallón “Libres de Atlixco” comandado por el general Joaquín Rea, que enfrentaron en un ataque desigual, contra de una población indefensa demostrando el gran valor de los atliscenses.
+
+Nuevamente,  un 4 de mayo de 1862, Atlixco, enfrenta una batalla en contra de conservadores que pretendían sumarse al Ejército Francés. Hecho decisivo en la epopeya del 5 de Mayo, que hoy es parte de la historia nacional.
+
+</h2>
+       </div>
+      </div>
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Batalla del 4 de mayo de 1862 </h1>
+       <div>
+       
+         <br>
+         
+       <div> <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/4mayo2.jpg',1)"><img src="imagenes/4mayo.jpg" width="430" height="333" id="Image33"></a> </center></div>
+        
+       </div>
+     </div>
+    </div>
+    <center><h2>El propio Benito Juárez creó una medalla reconociendo esta aportación de los atliscenses  que señalaba: “Derrotando a los traidores el 4 de mayo, contribuyó eficazmente al triunfo alcanzado en Puebla en contra del Ejército Francés el 5 de mayo de 1862”
+
+El propio gobierno de Benito Juárez consideró que sin el triunfo del 4 de mayo en Atlixco, no hubiera sido posible la victoria del 5 de mayo en Puebla.
+
+Justamente ello fue el sustento para que en el año 2010: Del Bicentenario y Centenario de nuestros movimientos fundacionales, por unanimidad de votos, el Congreso del Estado aprobara el Decreto en el que se declara “Dos Veces Heroica la Ciudad de Atlixco”  
+
+La aportación de Atlixco y la región al movimiento de Independencia está plasmada en la obra de la historiadora Alicia Tecuanhuey, “La formación del consenso por la Independencia. Lógica de la Ruptura del Juramento. Puebla, 1810-1821”
+
+Por ello importante hacer una recordación de estos hechos, en el contexto de los eventos conmemorativos al 4 y al 5 de Mayo celebrados en Atlixco y en la ciudad de Puebla, éstos últimos con la presencia del Presidente de México Enrique Peña Nieto. Primero, porque para Atlixco es un gran orgullo y también, porque representa sin duda, la aportación histórica, cultural y social que Atlixco ha dado a Puebla y al país y que servirá a las y los jóvenes de hoy, y a las futuras generaciones,  para rescatar su interés por la historia y fundamentalmente el sentido de identidad y pertenencia a esta noble tierra: Atlixco.</h2></center>
+     
+   
+ <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion Seis, RCV</h4>
+      </div>
+     </div>
+      
+      
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>  5 de mayo</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+           <h2>A principios de 1862, México fue invadido por los franceses. Unos meses antes, en junio de 1861, el Congreso mexicano – a iniciativa del Presidente Benito Juárez – había declarado la suspensión por un lapso de dos años del pago de la deuda internacional, debido a que la economía del país estaba prácticamente en bancarrota a raíz de la Guerra de Reforma (1857-1860).
+
+Aunque Inglaterra, España y Francia protestaron contra la medida, los dos primeros llegaron a un acuerdo con los diplomáticos mexicanos. En cambio, Napoleón III, gobernante de Francia, vio en ésta, la oportunidad de extender su imperio en América y decidió invadir México. En abril de 1862 (con el apoyo de los conservadores) los franceses emprendieron, desde Córdoba, Veracruz, la campaña militar hacia el centro de la República. La primera batalla importante tuvo lugar en Acultzingo, Veracruz, y el siguiente lugar en la ruta a la capital era la ciudad de Puebla.
+
+El general Charles Ferdinand Latrille, comandante de las tropas francesas, seguro de poder derrotar fácilmente al Ejército mexicano y dominar al país escribió al Ministro de Guerra de Francia: “Tenemos sobre los mexicanos tal superioridad de raza, organización, disciplina, moralidad y elevación de sentimientos, que os ruego digáis al emperador que a partir de este momento y a la cabeza de seis mil soldados, soy el amo de México”. El Ejército francés contaba con soldados experimentados y bien aprovisionados, considerados los mejores del mundo.
+
+Ante la amenaza de una intervención armada, el Presidente Juárez dispuso la organización de las Guardias Nacionales y del Cuerpo del Ejército de Oriente, comandado entonces por el General Ignacio Zaragoza, quien el 5 de mayo de 1862 se enfrentó a los franceses.
+
+A pesar de la inferioridad numérica, del poco adestramiento y el mal equipamiento, el triunfo mexicano fue absoluto; Zaragoza con una buena estrategia y aprovechando lo que tenía, obligó a los franceses a replegarse. Su experiencia fue determinante (muy joven había combatido contra la Invasión norteamericana y después se distinguió en la Guerra de Reforma como miembro del Ejército liberal) pues supo aprovechar la disposición de los fuertes de Loreto y Guadalupe, que defendían la ciudad de Puebla. En esta batalla se destacó la participación del contingente de indígenas zacapoaxtlas entre las tropas mexicanas, quienes convencidos de que la independencia y soberanía de México se encontraban en riesgo, tomaron las armas también.
+
+Desde el punto de vista estratégico, la Batalla de Puebla fue un importante triunfo para México, pues retrasó durante un año el avance del invasor y permitió al gobierno mexicano preparar la defensa de la ciudad.
+
+
+</h2></div>
+       </div>
+     
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>BATALLA DEL 5 DE MAYO</h1>
+       <div>
+        
+        <br>
+       </div>
+       <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/5mayo2.jpg',1)"><img src="imagenes/5mayo.jpg" width="600" height="428" id="Image31"></a></center> </div>
+     </div>
+          <center> <h2>En marzo de 1863, casi un año después, los franceses tomaron la ciudad de Puebla y en unos cuantos meses impusieron su dominio militar sobre el resto del país; así se estableció el Segundo Imperio Mexicano.
+
+Maximiliano de Habsburgo, archiduque de Austria, llegó a México en mayo del mismo año para convertirse en su emperador; su reinado duró tres años, hasta que fue derrotado y fusilado por los liberales, al mando de Benito Juárez.
+</h2>  </center>   
+    
+   
+      
+ <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion Seis, RCV</h4>
+      </div>
+ </div>
+       
+       
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Inicio del conflicto</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2> </h2></div>
+       </div>
+        <p> <center>La Batalla de Puebla fue una cruenta batalla librada por el ejercito mexicano, dirigido por Ignacio Zaragoza, durante el gobierno de Benito Juárez, ante una invasión del ejército francés, y la cual culminó con la retirada de las tropas francesas luego de su rendición, el 5 de mayo de 1862.</center> </p>
+   
+<div data-role="content" align="center">
+    <div>
+        <h2> Causas de la Batalla de Puebla</h2></div>
+       </div>
+       <p> <center>Existieron causas aparentes y causas que no lo fueron, o simplemente excusas, pero todos los aspectos mencionados fueron causas de la Batalla de Puebla; era claro que la República de México se encontraba sumida en crisis y tenía una deuda con Francia, España e Inglaterra; deuda que por la crisis, Benito Juárez, presidente de la época decidió no pagar por el momento y solicitar una tregua de 2 años para pagarla.
+
+Esta decisión de no pagar por el momento, disgustó a los acreedores de la deuda y decidieron agruparse para invadir a la Republica de México y cobrarse sus deudas, adicionalmente, cada uno de estos 3 países tenían intereses mas allá de la deuda; tenían intereses económicos, mineros y de expansión de sus negocios, también de colonización de territorios.</center> </p>
+<center><p>1._ Suspensión de pagos a los países acreedores.</p></center>
+<center><p2>2._ A causa de los problemas económicos y políticos que México sufría, los conservadores decidieron contactarse con el gobierno francés para que les enviara un gobernante para establecer un imperio monárquico en México.</p></center>
+<center><p>3._ La suspensión del pago de la deuda a Inglaterra y Francia, provoco que se rompieran las relaciones con ellos. También fue un pretexto para los franceses para intervenir en México.</p></center>
+<center><p>4._Inestabilidad política en México.
+ </p></center>
+ <center><p>5._ Interés de Francia en establecer una monarquía en México.   </p></center>
+
+      <center> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/causas2.png',1)"><img src="imagenes/causas1.jpg" width="500" height="479" id="Image30"></a></center>
+       
+      <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion Seis, RCV</h4>
+      </div>
+ </div>  
+       
+       
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Monumentos de la batalla en Mexico</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2>&nbsp;</h2>
+       </div>
+       </div>
+  
+                
+ <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <p>Monumento a los héroes de la batalla de Puebla:</p>
+   <li class="ui-first-child">
+   <a href="https://mediateca.inah.gob.mx/islandora_74/islandora/object/fotografia:101332" target="_self" data-role="button" id="beep">
+     <h2>pagina</h2>
+     </a>
+     </li>
+      </ul>
+   
+      <p>Consultar Monumento Emblemático al 150 Aniversario de la Batalla de Puebla:</p>
+    <li class="ui-first-child ui-last-child">
+    <a href="http://www.archdaily.mx/mx/02-217021/monumento-emblematico-del-150-aniversario-de-la-batalla-de-puebla-ten-arquitectos" target="_self" data-role="button" id="vibrar">
+    <h2>pagina</h2>
+    </a>
+    </li>
+    </ul>
+    </div>
+    
+    
+ <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion Dos, RCV</h4>
+      </div>
+       </div>
+       </div>
+       
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> Héroes de la batalla </h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2> Estos son los Héroes:</h2>
+        </div>
+       </div>
+  
+       
+        
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Ignacio Zaragoza</h1>
+       <div>
+       <p>Ignacio Zaragoza Seguin (24 de marzo de 1829 - 8 de septiembre de 1862) fue un militar mexicano reconocido como el héroe de la Batalla de Puebla, que tuvo lugar el 5 de mayo de 1862, cuando el ejército mexicano derrotó al ejército francés de élite al mando de Charles Ferdinand Latrille (Conde de Lorencez), considerado en su momento el mejor del mundo.</p>
+       
+        <center> <img src="imagenes/heroe1.jpg" width="50%" height="50%"></center>
+        
+      <div><a href="http://www.biografiasyvidas.com/biografia/z/zaragoza.htm" target="_self">Ir a la Biografia</a></div>
+      </div>
+     </div>
+    </div>
+    
+    
+    <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1> Porfirio Díaz</h1>
+       <div>
+       <p>as fuerzas del general Porfirio Díaz y las caballerías del coronel Antonio Álvarez rechazaron a los franceses hasta la hacienda de San José, obligándolos a aceptar su derrota y retirarse rumbo a Orizaba</p>
+        <img src="imagenes/heroe2.jpg" width="50%" height="50%">
+         
+        <div><a href="http://www.biografiasyvidas.com/biografia/d/diaz_porfirio.htm" target="_self">Ir a la Biografia</a></div>
+        
+      </div>
+ </div>
+    </div>
+    
+    
+    
+     <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+      <h1>Miguel Negrete</h1>
+       <div>
+       <p>Miguel Negrete Novoa fue un general militar nacido el 8 de mayo de 1824 en Tepeaca, Puebla; es considerado el principal héroe de la batalla del 5 de mayo de 1862 después del General Ignacio Zaragoza.
+
+Negrete fue investido con el cargo de general en 1862 por orden de Ignacio Zaragoza, fue el único militar nacido en Tepeaca con el grado de General de División, por ese motivo,  su recuerdo se mantiene vivo como en monumento en la Plaza de Armas, o la inscripción de su nombre en letras de oro en el muro de honor del Congreso del Estado.</p>
+        <img src="imagenes/heroe3.jpg" width="50%" height="60%">
+         
+        <div><a href="http://www.mcnbiografias.com/app-bio/do/show?key=negrete-miguel" target="_self">Ir a la Biografia</a></div>
+        
+        
+       </div>
+     </div>
+    </div>
+    
+      
+
+    
+      <div data-role="footer" data-theme="b" data-position="fixed">
+       <h4>Aplicacion Seis, RCV</h4>
+      </div>
+      
+       </div>
+       </div>
+       
+    
+</body>
+</html>
